@@ -9,6 +9,7 @@ obj/
 *.sln.docstates
 
 # Visual Studio Code
+*.vs
 .vscode/
 
 # Rider
@@ -39,7 +40,10 @@ Thumbs.db
 #**/Migrations/
 
 # Secret / env files (if any)
-appsettings.*.json
+appsettings.json
+appsettings.Production.json
+!appsettings.Development.json
+
 .env
 
 # Node / frontend (if any)
