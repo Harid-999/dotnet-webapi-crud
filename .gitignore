@@ -1,0 +1,48 @@
+# Build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ASP.NET Core runtime / publish output
+wwwroot/
+publish/
+*.dll
+*.exe
+*.pdb
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Entity Framework Migrations (optional if you want to ignore generated files)
+# Migrations folder
+#**/Migrations/
+
+# Secret / env files (if any)
+appsettings.*.json
+.env
+
+# Node / frontend (if any)
+node_modules/
+dist/
+
